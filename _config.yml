@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rogue
 
 # Permalinks
 permalink:        pretty
@@ -9,7 +9,6 @@ gems:
   - jekyll-paginate
   - redcarpet
   - jekyll-gist
-  - pygments.rb
 paginate: 5
 paginate_path: "page:num"
 
