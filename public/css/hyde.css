@@ -154,6 +154,10 @@ a.sidebar-nav-item:focus {
  * Flip the orientation of the page by placing the `.sidebar` on the right.
  */
 
+footer{
+  margin-right:2rem;
+}
+
 @media (min-width: 48em) {
   .layout-reverse .sidebar {
     left: auto;
@@ -163,12 +167,18 @@ a.sidebar-nav-item:focus {
     margin-left: 2rem;
     margin-right: 20rem;
   }
+  footer{
+    margin-right:20rem;
+  }
 }
 
 @media (min-width: 64em) {
   .layout-reverse .content {
     margin-left: 4rem;
     margin-right: 22rem;
+  }
+  footer{
+    margin-right:22rem;
   }
 }
 
@@ -244,7 +254,7 @@ footer > p{
   text-align: right;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   ul.social-links > li{
     display: inline;
   }
