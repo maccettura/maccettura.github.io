@@ -239,3 +239,16 @@ ul.social-links{
   list-style: none;
   padding:0;
 }
+
+footer > p{
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  ul.social-links > li{
+    display: inline;
+  }
+  ul.social-links li a span{
+    display: none;
+  }
+}

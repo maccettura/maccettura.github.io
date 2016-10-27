@@ -9,6 +9,10 @@
 
     <div class="content container">
       {{ content }}
+      <footer>
+        <hr />
+        <p>&copy; {{ site.time | date: '%Y' }}</p>
+      </footer>
     </div>
     <script id="dsq-count-scr" src="//{{site.disqus_shortname}}.disqus.com/count.js" async></script>
   </body>

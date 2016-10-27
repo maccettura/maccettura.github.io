@@ -24,7 +24,7 @@
       {% if site.twitter_username %}
       <li>
         <a href="https://twitter.com/{{ site.twitter_username }}">
-          <i class="fa fa-twitter-square" style="color:#1da1f2;"></i> Twitter
+          <i class="fa fa-twitter-square" style="color:#1da1f2;"></i> <span>Twitter</span>
         </a>
       </li>
       {% endif %}
@@ -32,7 +32,7 @@
       {% if site.linkedin_username %}
       <li>
         <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-          <i class="fa fa-linkedin-square" style="color:#0077b5;"></i> LinkedIn
+          <i class="fa fa-linkedin-square" style="color:#0077b5;"></i> <span>LinkedIn</span>
         </a>
       </li>
       {% endif %}
@@ -40,11 +40,10 @@
       {% if site.github_username %}
       <li>
         <a href="https://github.com/{{ site.github_username }}">
-          <i class="fa fa-github-square" style="color:#4078c0;"></i> GitHub
+          <i class="fa fa-github-square" style="color:#4078c0;"></i> <span>GitHub</span>
         </a>
       </li>
       {% endif %}
     </ul>
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
