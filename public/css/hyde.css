@@ -261,4 +261,7 @@ footer > p{
   ul.social-links li a span{
     display: none;
   }
+  ul.social-links li a{
+    font-size: 2em;
+  }
 }
