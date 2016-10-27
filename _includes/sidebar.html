@@ -11,13 +11,7 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
+      {% assign pages_list = site.pages | sort:"weight" %}
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
@@ -26,7 +20,31 @@
         {% endif %}
       {% endfor %}
     </nav>
+    <ul class="social-links">
+      {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <i class="fa fa-twitter-square" style="color:#1da1f2;"></i> Twitter
+        </a>
+      </li>
+      {% endif %}
 
+      {% if site.linkedin_username %}
+      <li>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+          <i class="fa fa-linkedin-square" style="color:#0077b5;"></i> LinkedIn
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}">
+          <i class="fa fa-github-square" style="color:#4078c0;"></i> GitHub
+        </a>
+      </li>
+      {% endif %}
+    </ul>
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

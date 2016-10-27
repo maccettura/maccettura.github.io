@@ -3,31 +3,31 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 gems:
   - jekyll-paginate
   - redcarpet
   - jekyll-gist
-paginate: 5
-paginate_path: "page:num"
-
-#relative_permalinks: true
+paginate: 10
+paginate_path: "/page:num"
 
 # Setup
 title:            Michelangelo Accettura III
 tagline:          'A developer blog'
 description:      'Detroit based .NET Developer.'
-url:              http://hyde.getpoole.com
 baseurl:          /
+tag_page: 'tags/'
+disqus_shortname: michelangeloaccettura-com
+#dev
+#disqus_shortname: dev-michelangeloaccettura-com
 
-author:
-  name:           'Michelangelo Accettura III'
-  url:            https://twitter.com/maccettura
-
-
+# Usernames
+github_username: 'maccettura'
+linkedin_username: 'maccettura'
+twitter_username: 'michelangeloIII'
+  
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/maccettura
+

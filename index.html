@@ -11,10 +11,23 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
+    <span class="post-meta-container">    
+        <span class="post-date">{{ post.date | date : '%B %d, %Y' }}</span>
+        |
+        <i class="fa fa-comment"></i>
+        <a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{ post.id }}">0 comments</a>
+    </span>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
+
+    {% if post.tags %}
+        <ul class="tags">
+        {% for tag in post.tags %}
+            <li><a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="tag">{{ tag }}</a></li>
+        {% endfor %} 
+        </ul>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
