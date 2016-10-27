@@ -245,7 +245,7 @@ footer{
   list-style: none;
 }
 
-ul.social-links{
+ul.sidebar-links{
   list-style: none;
   padding:0;
 }
@@ -255,13 +255,13 @@ footer > p{
 }
 
 @media (max-width: 48em) {
-  ul.social-links > li{
+  ul.sidebar-links > li{
     display: inline;
   }
-  ul.social-links li a span{
+  ul.sidebar-links li a span{
     display: none;
   }
-  ul.social-links li a{
+  ul.sidebar-links li a{
     font-size: 2em;
   }
 }
