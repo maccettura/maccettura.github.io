@@ -6,8 +6,6 @@ comments: true
 excerpt_separator: <!--more-->
 ---
 
-<h2>Demystifying Dependency Injection</h2>
-
 So what is "dependency injection" anyway?
 
 Dependency injection is one of the five principles described by Robert C. Martin in his [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) design proposal.  It basically states that:
