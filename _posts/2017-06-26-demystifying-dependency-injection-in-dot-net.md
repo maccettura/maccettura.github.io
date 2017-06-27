@@ -42,7 +42,7 @@ MusicSearch.sln
 
 One project that contains all the code you need, everything from gathering the data from the 3rd party music service to surfacing that data in an MVC application.  The one stop shop for all your needs, _right_?
 
-What happens when you need to unit test functionality specific to the MVC application (i.e testing routes, designing the layout, etc)? What happens when you decide to switch to another 3rd party music catalog service?  In either of those cases you will have to perform some pretty heavy lifting in your already completed and working application.  What you need is a way to make your code more modular, and easier to maintain.  Thats where dependency injection comes in.
+What happens when you need to unit test functionality specific to the MVC application (i.e testing routes, designing the layout, etc)? What happens when you decide to switch to another 3rd party music service?  In either of those cases you will have to perform some pretty heavy lifting in your already completed and working application.  What you need is a way to make your code more modular, and easier to maintain.  Thats where dependency injection comes in.
 
 <h3>If I knew then what I know now</h3>
 
@@ -269,7 +269,7 @@ Now, <strong>that's it</strong>.
 Remember the problems we dreamt up earlier?
 
  - What happens when you need to unit test functionality specific to the MVC app? 
- - What happens when you decide to switch to another 3rd party music catalog service?
+ - What happens when you decide to switch to another 3rd party music service?
 
 Both of those are quite easily solved now.  We can now create "mock" services that simply just return some dummy data for the purpose of testing our MVC app.  If we decide to switch from Spotify to another 3rd party service, we simply create a new project with the new service's specific code.  All thats needed is to change our bindings in the IoC container.
 
