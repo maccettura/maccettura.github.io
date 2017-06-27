@@ -25,7 +25,7 @@ The team I worked with at Enlighten/Perficient Digital, won multiple awards for 
 * <a href="http://www.webaward.org/winner.asp?eid=32878#.WBFHZKOZMnU" target="_blank">2016 WebAward For Outstanding Achievement
 in Web Development (Best Non-Profit Website)</a>
 * <a href="http://aam-us.org/about-us/grants-awards-and-competitions/muse-awards/past-award-winners/2016-muse-awards" target="_blank">2016 MUSE Award in Online Presence | Silver</a>
-* <a href="http://www.iacaward.org/iac/winner/16755/perficient-digital-wins-2017-iac-award-for-making-history-online.html" target="_blank">IAC Award for Outstanding Achievement in Internet Advertising</a>
+* <a href="http://www.iacaward.org/iac/winner/16755/perficient-digital-wins-2017-iac-award-for-making-history-online.html" target="_blank">2017 IAC Award for Outstanding Achievement in Internet Advertising</a>
 
 
 ### Contact
