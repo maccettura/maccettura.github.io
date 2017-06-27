@@ -27,6 +27,9 @@ excerpt_separator: <!--more-->
 github_username: 'maccettura'
 linkedin_username: 'maccettura'
 twitter_username: 'michelangeloIII'
+
+# Links
+stackoverflow_link: 'https://stackoverflow.com/users/2457029/maccettura'
   
 # Custom vars
 version:          2.1.0
