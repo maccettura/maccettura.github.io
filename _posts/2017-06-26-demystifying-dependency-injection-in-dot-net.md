@@ -110,19 +110,19 @@ public class SearchController : Controller
 {
     private readonly IMusicSearchService _musicSearchService;
 
-    public ActionResult AlbumSearch(string query)
+    public IActionResult AlbumSearch(string query)
     {
         var results = _musicSearchService.SearchAlbums(query);
         //more code
     }
 
-    public ActionResult ArtistSearch(string query)
+    public IActionResult ArtistSearch(string query)
     {
         var results = _musicSearchService.SearchArtists(query);
         //more code
     }
 
-    public ActionResult SongSearch(string query)
+    public IActionResult SongSearch(string query)
     {
         var results = _musicSearchService.SearchSongs(query);
         //more code
@@ -148,19 +148,19 @@ public class SearchController : Controller
         _musicSearchService = musicSearchService; //magic!
     }
 
-    public ActionResult AlbumSearch(string query)
+    public IActionResult AlbumSearch(string query)
     {
         var results = _musicSearchService.SearchAlbums(query);
         //more code
     }
 
-    public ActionResult ArtistSearch(string query)
+    public IActionResult ArtistSearch(string query)
     {
         var results = _musicSearchService.SearchArtists(query);
         //more code
     }
 
-    public ActionResult SongSearch(string query)
+    public IActionResult SongSearch(string query)
     {
         var results = _musicSearchService.SearchSongs(query);
         //more code
