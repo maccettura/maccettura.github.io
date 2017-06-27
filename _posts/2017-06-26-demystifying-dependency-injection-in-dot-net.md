@@ -171,98 +171,25 @@ public class SearchController : Controller
 
 Anytime an instance of your controller is created, an argument of type `IMusicSearchService` <strong>has</strong> to be passed in.  This could be done by simply creating a new object and passing it as a parameter, but then we <strong>still</strong> have our code dictating what concrete to use.  Thankfully there is another way; [IoC containers](https://github.com/quozd/awesome-dotnet#ioc).  IoC containers are complex, but for our purposes today all you need to know is that _it takes care of instantiating objects for you_.  We just have to tell it how.
 
-***
+Microsoft has included an IoC container in ASP.NET Core, for the purpose of this post I will be showing how to inject dependencies using the built in tool. 
 
-I personally use [Ninject](https://github.com/ninject/ninject), and the following examples will work under the assumption that the <strong>Ninject.MVC5</strong> Nuget package is installed.
-
-***
-
-After <strong>Ninject.MVC5</strong> is installed in your project, you will see a new file: `App_Start/NinjectWebCommon.cs`.  When you open it you should see a pretty weird looking class, something like this:
+Navigate to the `Startup.cs` class and look for a method called: `ConfigureServices()`, this is where we will define our _bindings_.
 
 {% highlight csharp %}
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(MusicSearch.Web.App_Start.NinjectWebCommon), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(MusicSearch.Web.App_Start.NinjectWebCommon), "Stop")]
-
-namespace MusicSearch.Web.App_Start
+public void ConfigureServices(IServiceCollection services)
 {
-    using System;
-    using System.Web;
-
-    using Microsoft.Web.Infrastructure.DynamicModuleHelper;    
-    using Ninject;
-    using Ninject.Web.Common;
-
-    public static class NinjectWebCommon 
-    {
-        private static readonly Bootstrapper bootstrapper = new Bootstrapper();
-
-        /// <summary>
-        /// Starts the application
-        /// </summary>
-        public static void Start() 
-        {
-            DynamicModuleUtility.RegisterModule(typeof(OnePerRequestHttpModule));
-            DynamicModuleUtility.RegisterModule(typeof(NinjectHttpModule));
-            bootstrapper.Initialize(CreateKernel);
-        }
+    /*
+         There will be other services registered here, the code may vary so I am excluding it
+    */
         
-        /// <summary>
-        /// Stops the application.
-        /// </summary>
-        public static void Stop()
-        {
-            bootstrapper.ShutDown();
-        }
-        
-        /// <summary>
-        /// Creates the kernel that will manage your application.
-        /// </summary>
-        /// <returns>The created kernel.</returns>
-        private static IKernel CreateKernel()
-        {
-            var kernel = new StandardKernel();
-            try
-            {
-                kernel.Bind<Func<IKernel>>().ToMethod(ctx => () => new Bootstrapper().Kernel);
-                kernel.Bind<IHttpModule>().To<HttpApplicationInitializationHttpModule>();
-
-                RegisterServices(kernel);
-                return kernel;
-            }
-            catch
-            {
-                kernel.Dispose();
-                throw;
-            }
-        }
-
-        /// <summary>
-        /// Load your modules or register your services here!
-        /// </summary>
-        /// <param name="kernel">The kernel.</param>
-        private static void RegisterServices(IKernel kernel)
-        {
-
-        }        
-    }
+    //This is the where the IoC magic happens
+    services.AddTransient<IMusicSearchService, SpotifyMusicSearchService>();
 }
 
 {% endhighlight %}
 
-The only part you need to be concerned with is the `RegisterServices()` method.  That is where we will define our _bindings_.
-
-{% highlight csharp %}
-
-private static void RegisterServices(IKernel kernel)
-{
-    //Anytime our code needs a "IMusicSearchService", use "SpotifyMusicSearchService"
-    kernel.Bind<IMusicSearchService>().To<SpotifyMusicSearchService>();
-} 
-
-{% endhighlight %} 
-
-Now, <strong>that's it</strong>.
+Basically this line of code says that anytime our code needs a "IMusicSearchService", use "SpotifyMusicSearchService".  We do have other options for scope besides "Transient" (Scoped, Singleton), but for our purposes we will use "Transient".
 
 <h3>Endless possibilities</h3>
 
@@ -271,6 +198,27 @@ Remember the problems we dreamt up earlier?
  - What happens when you need to unit test functionality specific to the MVC app? 
  - What happens when you decide to switch to another 3rd party music service?
 
-Both of those are quite easily solved now.  We can now create "mock" services that simply just return some dummy data for the purpose of testing our MVC app.  If we decide to switch from Spotify to another 3rd party service, we simply create a new project with the new service's specific code.  All thats needed is to change our bindings in the IoC container.
+Both of those are quite easily solved now.  We can now create "mock" services that simply just return some dummy data for the purpose of testing our MVC app.  If we decide to switch from Spotify to another 3rd party service, we simply create a new project with the new service's specific code.  All thats needed is to change our bindings in the IoC container:
 
-As long as we always _code against abstracts_, we make our code <strong>better</strong>.
+{% highlight csharp %}
+
+public void ConfigureServices(IServiceCollection services)
+{
+    //We want to test our MVC app, so we switch to a fake music service (i.e dummy data).
+    services.AddTransient<IMusicSearchService, MockMusicSearchService>();
+}
+
+{% endhighlight %}
+
+{% highlight csharp %}
+
+public void ConfigureServices(IServiceCollection services)
+{
+    //We want to test out potentially switching to Pandora, so we switch to our newly created Pandora service.
+    services.AddTransient<IMusicSearchService, PandoraMusicSearchService>();
+}
+
+{% endhighlight %}
+
+Can you see the benfits of writing modular code?  As long as we always _code against abstracts_, we make our code <strong>better</strong>.
+
