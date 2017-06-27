@@ -17,8 +17,9 @@ title:            Michelangelo Accettura III
 tagline:          'A developer blog'
 description:      'Detroit based .NET Developer.'
 baseurl:          /
-tag_page: 'tags/'
+tag_page:         'tags/'
 disqus_shortname: michelangeloaccettura-com
+excerpt_separator: <!--more-->
 #dev
 #disqus_shortname: dev-michelangeloaccettura-com
 

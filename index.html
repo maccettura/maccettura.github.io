@@ -19,7 +19,12 @@ title: Home
     </span>
 
 
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    <div style="margin-bottom: 20px;">
+      <a href="{{ post.url }}">>>Read the rest</a>
+    </div>
+    
 
     {% if post.tags %}
         <ul class="tags">
