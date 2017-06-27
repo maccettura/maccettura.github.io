@@ -11,9 +11,9 @@ weight: 1
 
 My name is Michelangelo, and I'm a .NET developer.
 
-The year was 2011 when the curiosity finally struck me, years of tinkering, troubleshooting and knowing what a `<b>` tag was (thanks MySpace!) I decided I wanted more.  I was certainly aware that being a "computer programmer" was a thing but I had no idea how to get started. With no frame of reference or guidance, I just googled "how to write software".
+The year was 2011 when the curiosity finally struck me, years of tinkering, troubleshooting and knowing what a `<b>` tag was (thanks MySpace) I decided I wanted more.  I was certainly aware that being a "computer programmer" was a thing but I had no idea how to get started. With no frame of reference or guidance I just googled "how to write software".
 
-After countless late nights following various tutorials, I finally had something to show for my efforts.  I called it <a target="_blank" href="https://github.com/maccettura/Multiply/blob/master/Multiply/Source.cpp">MULTIPLY</a>.  It was a small game that generated 10 multiplication problems and quizzed the user.  It even had an ASCII multiplication table! 
+After countless late nights following various tutorials, I finally had something to show for my efforts.  I called it <a target="_blank" href="https://github.com/maccettura/Multiply/blob/master/Multiply/Source.cpp">MULTIPLY</a>.  It was a small game that generated 10 multiplication problems and quizzed the user.  It even had an ASCII multiplication table. 
 
 Very soon after that first console application, I had the good fortune of finding work with a local company that did a mix of general IT, tech troubleshooting and .NET development.  The owner helped jump start my career, he taught me years worth of knowledge and experience in a short amount of time.  This is when I fell in love with the .NET Framework.  The years spent since then have all been dedicated to learning all I could about writing clean, efficient and scalable enterprise software with .NET.
 
