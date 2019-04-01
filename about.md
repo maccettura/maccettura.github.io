@@ -30,6 +30,6 @@ in Web Development (Best Non-Profit Website)</a>
 
 ### Contact
 
-Have questions or suggestions? Feel free to <a href="mailto:contact@michelangeloaccettura.com">send me an email</a>.
+Have questions or suggestions? Feel free to <a href="mailto:contact@michelangelo.dev">send me an email</a>.
 
 Thanks for reading!
