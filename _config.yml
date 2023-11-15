@@ -5,10 +5,7 @@ highlighter:      rouge
 # Permalinks
 permalink: pretty
 
-gems:
-  - jekyll-paginate
-  - redcarpet
-  - jekyll-gist
+plugins: [jekyll-paginate]
 paginate: 10
 paginate_path: "/page:num"
 
