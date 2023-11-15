@@ -61,7 +61,7 @@ global using System.Collections.Generic;
 
 The way I have structured this project means I have one folder for every day in the Advent of Code calendar.  Removing `n` of using directives, across 25 folders gave me a lot of pre-holiday joy.
 
-The C# language team have been making wonder & welcome additions to the language yearly. This isn't Steve Balmer's Microsoft anymore...
+The C# language team have been making wonder & welcome additions to the language yearly. This isn't Steve Ballmer's Microsoft anymore...
 <img src="https://media.giphy.com/media/Y4v5zIFWE34PsiCPRs/giphy.gif" />
 
 Happy holidays!
