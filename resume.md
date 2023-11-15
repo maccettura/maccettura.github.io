@@ -80,7 +80,7 @@ Sitecore Certified Developer
 ## Education
 
 `2013`
-**Associates of Science**, Oakland Community College
+**Associate of Arts**, Oakland Community College
 
 ## Awards
 
