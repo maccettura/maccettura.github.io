@@ -16,7 +16,25 @@ weight: 2
 
 ## Summary
 
-Results driven .NET Solutions Architect with 13 years of experience in designing and developing efficient, scalable solutions for clients across a wide range of verticals. Experienced in leading engineering teams to meet & exceed complex development goals on tight deadlines. Strong communicator, empathetic to stakeholder needs, all while providing accurate estimations and clear sprint planning. Determined to deliver results and an effortless experience to the end user by way of clean and elegant code. 
+Results driven .NET Solutions Architect with 13 years of experience in designing and developing efficient, scalable solutions for clients across a wide range of verticals. Experienced in leading engineering teams to meet & exceed complex development goals on tight deadlines. Strong communicator, empathetic to stakeholder needs, all while providing accurate estimations and clear sprint planning. Passionate as a mentor to others, enjoys teaching up and coming developers through tutoring on the side and as frequent Stack Overflow contributor. Determined to deliver results and an effortless experience to the end user by way of clean and elegant code. 
+
+## Skills
+
+- C# / .NET
+- ASP.NET
+- Vue / Nuxt.js,  React / Next.js
+- Certified Optimizely Developer
+- Contentful, Netlify, Vercel
+- Coveo Cloud / Machine Learning
+- Git, Azure Dev-Ops, Agile 
+- Tailwind CSS, Bootstrap
+- Cosmos DB
+- Entity Framework, Dapper
+- Azure Cloud, Docker
+- Azure Cognitive Services
+- SQL Server / T-SQL
+- Cosmos DB
+
 
 ## Currently
 
@@ -47,8 +65,6 @@ Results driven .NET Solutions Architect with 13 years of experience in designing
 
 - Main project was a public web app for clients to manage elements of their paycheck and personal data. Application was built as MVC SPA, with web services to serve data.
 - Rewrote the primary LOB console app into a Windows Forms application.
-
-
 
 ## Certifications
 
