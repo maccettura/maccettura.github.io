@@ -19,8 +19,7 @@ Essentially I just needed a way to create all the files needed for blocks and pa
 Even if they got around to building this thing, I eventually realized that the way I prefer to build out Opti projects is a bit opinionated. I like to enforce some architecture standards like: 
 
 - using custom abstract base classes for pages/blocks as an extra layer of abstraction so our block and pages types don't inherit from `BlockData` and `PageData` directly
-- Always using block & page view model classes, even when they're redundant
-- - There is no overhead as far as I can tell to doing this, but with the constant changes throughout a project lifecycle I prefer to have the foundation there already if a block or page becomes more _involved_.
+- Always using block & page view model classes, even when they're redundant. There is no overhead as far as I can tell to doing this, but with the constant changes throughout a project lifecycle I prefer to have the foundation there already if a block or page becomes more _involved_.
 - In addition to the last point, always using custom base classes for block/page view models.
 
 I believe these standards improve my ability to deliver consistent, high-quality projects to clients and since the tool was originally just for me, I built these standards (opinions) into it. 
