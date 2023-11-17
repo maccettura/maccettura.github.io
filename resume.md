@@ -42,6 +42,8 @@ Results driven .NET Solutions Architect with 13 years of experience in designing
 <span class="job-title">Lead .NET Developer, <em>Rightpoint</em></span>
 
 - Lead a team in a complete application rewrite for Frontier Airlines. The solution was built with Optimizely and specifically utilized features such as personalization, Find and the headless API’s to deliver a modern booking flow for their customers and a more streamlined content management system for their team.
+- Architected an Optimizely backed website redesign for the University of California, San Diego's Health system. Built out custom Yext integrations to facilitate searching across various modules of the site. Developed deeply customized blocks to push Optimizely beyond its out of the box capabilities. Setup various personalization criterions, and set the client up for success with Optimizely marketing tools.
+- Performed various code & architecture audits to identify security & performance concerns. Proven track record of finding areas of the architecture to improve, and then delivering substantial gains in performance.
 - Architected highly performant and scalable modules for a massive and complex data migration of a legacy CMS into Sitecore for the State of Michigan. Orchestrated the tooling so that I could leverage the modern API’s of .NET 5 in specific areas while working with the restrictions of the Sitecore API’s in legacy .NET Framework.
 - Utilized Optimizely Commerce to build a sample ordering website for Azek/TimberTek. Built an integration to leverage client’s existing DAM, also built tooling to synch inventory data from client’s existing PIM.
 
