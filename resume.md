@@ -28,7 +28,6 @@ Results driven .NET Solutions Architect with 13 years of experience in designing
 - Coveo Cloud / Machine Learning
 - Git, Azure Dev-Ops, Agile 
 - Tailwind CSS, Bootstrap
-- Cosmos DB
 - Entity Framework, Dapper
 - Azure Cloud, Docker
 - Azure Cognitive Services
