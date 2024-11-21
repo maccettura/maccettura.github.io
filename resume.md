@@ -37,7 +37,13 @@ Results driven .NET Solutions Architect with 13 years of experience in designing
 
 ## Currently
 
-`2017-`
+`2023-`
+<span class="job-title">Solutions Architect, <em>Perficient</em></span>
+
+
+### Previously
+
+`2017-2023`
 <span class="job-title">Lead .NET Developer, <em>Rightpoint</em></span>
 
 - Lead a team in a complete application rewrite for Frontier Airlines. The solution was built with Optimizely and specifically utilized features such as personalization, Find and the headless API’s to deliver a modern booking flow for their customers and a more streamlined content management system for their team.
@@ -46,9 +52,6 @@ Results driven .NET Solutions Architect with 13 years of experience in designing
 - Architected highly performant and scalable modules for a massive and complex data migration of a legacy CMS into Sitecore for the State of Michigan. Orchestrated the tooling so that I could leverage the modern API’s of .NET 5 in specific areas while working with the restrictions of the Sitecore API’s in legacy .NET Framework.
 - Utilized Optimizely Commerce to build a sample ordering website for Azek/TimberTek. Built an integration to leverage client’s existing DAM, also built tooling to synch inventory data from client’s existing PIM.
 
-
-### Previously
-
 `2016-2017`
 <span class="job-title">Lead .NET Developer, <em>LUX Interactive</em></span>
  
@@ -56,7 +59,7 @@ Results driven .NET Solutions Architect with 13 years of experience in designing
 - Constructed API endpoints to expose data from the booking system for use in the booking application.
 
 `2014-2016`
-<span class="job-title">Senior .NET Developer, <em>Enlighten</em></span>
+<span class="job-title">Senior .NET Developer, <em>Perficient (Enlighten)</em></span>
 
 - Primary backend developer for The Henry Ford’s website redesign. Used Sitefinity to manage site content and wrote an API to expose the content to an MVC application, an early version of headless CMS. Helped develop the large content model and implemented smart caching strategies to get massive performance out of smaller hardware.
 - Developed the backend of a hybrid web application (MVC/Angular) for a OhioHealth using Optimizely CMS. Wrote web services for the front-end team’s Angular components. Utilized the Optimizely Find (Elasticsearch) API for Find a Doctor/Hospital feature of the website.
