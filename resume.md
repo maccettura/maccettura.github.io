@@ -16,7 +16,7 @@ weight: 2
 
 ## Summary
 
-Results driven .NET Solutions Architect with 13 years of experience in designing and developing efficient, scalable solutions for clients across a wide range of verticals. Experienced in leading engineering teams to meet & exceed complex development goals on tight deadlines. Strong communicator, empathetic to stakeholder needs, all while providing accurate estimations and clear sprint planning. Passionate as a mentor to others, enjoys teaching up and coming developers through tutoring on the side and as frequent Stack Overflow contributor. Determined to deliver results and an effortless experience to the end user by way of clean and elegant code. 
+Results driven .NET Solutions Architect with 15 years of experience in designing and developing efficient, scalable solutions for clients across a wide range of verticals. Experienced in leading engineering teams to meet & exceed complex development goals on tight deadlines. Strong communicator, empathetic to stakeholder needs, all while providing accurate estimations and clear sprint planning. Passionate as a mentor to others, enjoys teaching up and coming developers through tutoring on the side and as frequent Stack Overflow contributor. Determined to deliver results and an effortless experience to the end user by way of clean and elegant code. 
 
 ## Skills
 
@@ -24,22 +24,21 @@ Results driven .NET Solutions Architect with 13 years of experience in designing
 - ASP.NET
 - Vue / Nuxt.js,  React / Next.js
 - Certified Optimizely Developer
-- Contentful, Netlify, Vercel
+- Vercel, Netlify, Contentful
 - Coveo Cloud / Machine Learning
 - Git, Azure Dev-Ops, Agile 
 - Tailwind CSS, Bootstrap
 - Entity Framework, Dapper
-- Azure Cloud, Docker
-- Azure Cognitive Services
-- SQL Server / T-SQL
-- Cosmos DB
+- Azure Cloud, Docker, Kubernetes, Container Services
+- Azure AI Services 
+- SQL Server / T-SQL / Azure Cosmos DB
+- Cloudflare, AWS
 
 
 ## Currently
 
 `2023-`
 <span class="job-title">Solutions Architect, <em>Perficient</em></span>
-
 
 ### Previously
 
