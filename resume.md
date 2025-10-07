@@ -22,15 +22,15 @@ Results driven .NET Solutions Architect with 15 years of experience in designing
 
 - C# / .NET
 - ASP.NET
-- Vue / Nuxt.js,  React / Next.js
+- React / Next.js, Vue / Nuxt.js
 - Certified Optimizely Developer
 - Vercel, Netlify, Contentful
-- Coveo Cloud / Machine Learning
+- Coveo Cloud / AI‑Relevance / Machine Learning
 - Git, Azure Dev-Ops, Agile 
 - Tailwind CSS, Bootstrap
 - Entity Framework, Dapper
 - Azure Cloud, Docker, Kubernetes, Container Services
-- Azure AI Services 
+- Agentic AI, MCP, Azure AI Services
 - SQL Server / T-SQL / Azure Cosmos DB
 - Cloudflare, AWS
 
@@ -39,6 +39,10 @@ Results driven .NET Solutions Architect with 15 years of experience in designing
 
 `2023-`
 <span class="job-title">Solutions Architect, <em>Perficient</em></span>
+
+- Lead the backend team of a website consolidation project for a global heating and cooling supply company. Key initiatives included: building out contextual search pages using GraphQL and Next.js, creating media pages that serve video or document content dynamically, and creating a reusable migration tool to move legacy media user generated comments to a new commenting/engagement provider.
+- Created a phased re-architecture & upgrade plan for a Real Estate client. Goal was to update .NET away from legacy .NET Framework and outdated Optimizely versions into their respective current LTS versions. Worked under numerous constraints (budget, time, etc) to build a plan to accomplish all their goals and bring the solution into modern developmental standards. 
+- Helped develop various internal CMS tools and knowledge base(s), including a Optimizely documentation engine and accelerator components. Continuously adding AI tooling to our delivery and helping that shared knowledge grow.
 
 ### Previously
 
