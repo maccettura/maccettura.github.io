@@ -16,7 +16,7 @@ weight: 2
 
 ## Summary
 
-Results driven .NET Solutions Architect with 15 years of experience in designing and developing efficient, scalable solutions for clients across a wide range of verticals. Experienced in leading engineering teams to meet & exceed complex development goals on tight deadlines. Strong communicator, empathetic to stakeholder needs, all while providing accurate estimations and clear sprint planning. Passionate as a mentor to others, enjoys teaching up and coming developers through tutoring on the side and as frequent Stack Overflow contributor. Determined to deliver results and an effortless experience to the end user by way of clean and elegant code. 
+Results driven .NET Solutions Architect with 16 years of experience in designing and developing efficient, scalable solutions for clients across a wide range of verticals. Experienced in leading engineering teams to meet & exceed complex development goals on tight deadlines. Strong communicator, empathetic to stakeholder needs, all while providing accurate estimations and clear sprint planning. Passionate as a mentor to others, enjoys teaching up and coming developers through tutoring on the side and as frequent Stack Overflow contributor. Determined to deliver results and an effortless experience to the end user by way of clean and elegant code. 
 
 ## Skills
 
@@ -32,6 +32,7 @@ Results driven .NET Solutions Architect with 15 years of experience in designing
 - Azure Cloud, Docker, Kubernetes, Container Services
 - Agentic AI, MCP, Azure AI Services
 - SQL Server / T-SQL / Azure Cosmos DB
+- Salesforce
 - Cloudflare, AWS
 
 
@@ -40,6 +41,7 @@ Results driven .NET Solutions Architect with 15 years of experience in designing
 `2023-`
 <span class="job-title">Solutions Architect, <em>Perficient</em></span>
 
+- Served as enterprise architect on a large-scale (team of ~100) initiative building an internal web app for a national insurance brokerage. Met with client stakeholders, users and leadership to architect a scalable solution for handling critical daily business needs. Served as overall architect for 5 different sub-teams, lead business analysts in technical requirements gathering, and developed several supporting libraries to facilitate efficient handling of large data access from a legacy Salesforce system.   
 - Lead the backend team of a website consolidation project for a global heating and cooling supply company. Key initiatives included: building out contextual search pages using GraphQL and Next.js, creating media pages that serve video or document content dynamically, and creating a reusable migration tool to move legacy media user generated comments to a new commenting/engagement provider.
 - Created a phased re-architecture & upgrade plan for a Real Estate client. Goal was to update .NET away from legacy .NET Framework and outdated Optimizely versions into their respective current LTS versions. Worked under numerous constraints (budget, time, etc) to build a plan to accomplish all their goals and bring the solution into modern developmental standards. 
 - Helped develop various internal CMS tools and knowledge base(s), including a Optimizely documentation engine and accelerator components. Continuously adding AI tooling to our delivery and helping that shared knowledge grow.
